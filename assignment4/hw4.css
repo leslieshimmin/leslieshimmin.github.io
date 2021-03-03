@@ -1,0 +1,35 @@
+a:link {
+  color: blue;
+}
+
+body {
+  background-color: rgb(236, 210, 62);
+  /* color: #333333; */
+}
+
+header {
+  background: url(student.jpg) no-repeat top right;
+  height: 110px;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+footer {
+  background: url(elementarystudent.png) no-repeat bottom left;
+  height: 165px;
+  text-align: left;
+}
+
+footer > p {
+  padding-top: 170px;
+}
