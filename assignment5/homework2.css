@@ -44,9 +44,9 @@ table {
   background-color: cyan;
   border-spacing: 5px;
 
-  animation: myfirst 5s;
-  -moz-animation: myfirst 5s; /* Firefox */
-  -webkit-animation: myfirst 5s; /* Safari and Chrome */
+  animation: anime 5s;
+  -moz-animation: anime 5s;
+  -webkit-animation: anime 5s;
 }
 td {
   padding: 10px;
@@ -55,7 +55,7 @@ td {
   text-align: center;
   font-weight: bold;
 }
-@keyframes myfirst {
+@keyframes anime {
   from {
     background: cyan;
   }
@@ -65,7 +65,7 @@ td {
   }
 }
 
-@-moz-keyframes myfirst /* Firefox */ {
+@-moz-keyframes anime {
   from {
     background: cyan;
   }
@@ -75,7 +75,7 @@ td {
   }
 }
 
-@-webkit-keyframes myfirst /* Safari and Chrome */ {
+@-webkit-keyframes anime {
   from {
     background: cyan;
   }
