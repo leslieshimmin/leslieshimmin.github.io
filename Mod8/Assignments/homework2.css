@@ -1,0 +1,86 @@
+body {
+  background-color: yellow;
+}
+body a:link {
+  color: red;
+}
+body a:visited {
+  color: blue;
+}
+h1 {
+  color: red;
+  text-align: center;
+}
+h2 {
+  color: blue;
+  text-align: right;
+  font-style: italic;
+}
+h3 {
+  color: red;
+  text-align: right;
+}
+#endex {
+  font-size: 48px;
+}
+p::first-letter {
+  font-size: 48px;
+  font-weight: bold;
+  font-style: italic;
+}
+#www {
+  color: red;
+}
+#fontcenter {
+  color: red;
+}
+#embedded {
+  color: red;
+}
+#styletag {
+  color: red;
+}
+table {
+  background-color: cyan;
+  border-spacing: 5px;
+
+  animation: anime 5s;
+  -moz-animation: anime 5s;
+  -webkit-animation: anime 5s;
+}
+td {
+  padding: 10px;
+}
+.centercolumn {
+  text-align: center;
+  font-weight: bold;
+}
+@keyframes anime {
+  from {
+    background: cyan;
+  }
+  to {
+    background: green;
+    color: white;
+  }
+}
+
+@-moz-keyframes anime {
+  from {
+    background: cyan;
+  }
+  to {
+    background: green;
+    color: white;
+  }
+}
+
+@-webkit-keyframes anime {
+  from {
+    background: cyan;
+  }
+  to {
+    background: green;
+    color: white;
+  }
+}
