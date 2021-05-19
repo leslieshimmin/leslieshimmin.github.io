@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Contact Page</title>
+   <meta charset="utf-8">
+   <meta name="description" content="Contact page for submiting a form with initial information about the user">
+   <link rel="stylesheet" href="hw8.css">
+</head>
+<body>
+<div class="grid gridContact">
+ <header class="grid-area grid-area-1">
+   <h2>Leslie Shimmin's Web Developers Page</h2>
+ </header>
+ <nav class="grid-area grid-area-2">
+    <ul>
+      <li><a href="hw8.html">Home</a></li>
+      <li><a href="assignments.html">Assignments</a></li>
+      <li><a href="meetUp.html">MeetUp</a></li>
+    </ul>
+  </nav>
+ <main class="grid-area grid-area-3 center">
+    <section>
+      <h4>CONTACT ME</h4>
+      <p>
+        In order to contact me please use the information in the footer part of the page 
+        or fill out this form.
+      </p>
+  
+      <form class="form1" action="#" method="post" name="MtForm">
+        
+        <label>Full Name</label>
+        <input type="text" class="myinput" maxlength="15" name="fulltname" required>
+      
+        <label>Email</label>
+        <input class="myinput" type="email" name="email" required>
+
+        <label for="w3review">Please leave comments bellow</label>
+        <textarea id="w3review" class="myinput" name="w3review" rows="4" cols="50">
+        </textarea>
+      
+        <div class="center">
+          <input type="submit" value="Submit"> &nbsp; 
+          <input type="reset" value="Clear">
+        </div>
+      </form>
+    </section>
+
+ </main>
+ <footer class="grid-area grid-area-4">
+   Contact me via <a href="mailto:leshim@gmail.com">email</a> 
+   <p>© Leslie Shimmin. All rights reserved.</p>
+  </footer>
+</div>
+</body>
+</html>   
